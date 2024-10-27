@@ -1,0 +1,35 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout {
+  display: flex;
+  gap: 1rem;
+}
+
+.city-list, .weather-details {
+  border: 1px solid #000000;
+}
+
+h2 {
+  background-color: #006349;
+  color: #ffffff;
+}
+
+button {
+  background-color: #4472C4;
+  color: #ffffff;
+  margin: 0.5rem;
+}
+
+table, th, td {
+  border: 1px solid #000000;
+  padding: 0.5rem;
+}
+
+.search-bar {
+  margin-top: 1rem;
+}
